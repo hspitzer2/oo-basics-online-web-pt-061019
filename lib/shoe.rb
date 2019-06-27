@@ -14,11 +14,10 @@ class Shoe
     @condition
   end
 
-  def cobble(condition)
-    if shoe.condition do |condition| condition = "new"
+  def cobble
     puts "Your shoe is as good as new!"
+    @condition = "new"
    end
-  end
 end
 
 shoe = Shoe.new("Nike")
