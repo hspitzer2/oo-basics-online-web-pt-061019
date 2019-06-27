@@ -37,4 +37,3 @@ class Shoe
   def cobbler(condition)
   end
 end
-
