@@ -38,5 +38,5 @@ class Shoe
   end
 end
 
-shoe = Shoe.new(brand)
+shoe = Shoe.new("nike")
 shoe.cobble
